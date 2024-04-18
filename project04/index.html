@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Forums</title>
+	</head>
+	<body>
+		<form action="" method="post">
+			<label for="employe_name">Enter Name</label>
+			<input type="text" name="employe_name" placeholder="Enter First Name" value="" id="employe_name" required />
+			<br />
+			<br />
+			<label for="employe_email">Enter Email</label>
+			<input type="email" name="employe_email" placeholder="Enter email" value="" id="employe_email" />
+			<br />
+			<br />
+			<label for="employe_password">Password</label>
+			<input type="password" name="employe_password" placeholder="Password" value="" id="employe_password" disabled />
+			<br />
+			<br />
+			<label for="employe_age">age</label>
+			<input type="number" name="employe_age" value="" placeholder="age" id="employe_age" min="18" max="35" />
+			<br>
+			<br>
+			<label for="employe_agrement">I Acept Terms and Conditions</label>
+			<input type="checkbox" name="employe_agrement" id="employe_agrement" value="" />
+			<br>
+			<br>
+			<label>Gender</label>
+			<input type="radio" name="employe_type" value="girl" /><small>Girl</small>
+			<input type="radio" name="employe_type" value="Boy" /><small>Boy</small>
+			<br>
+			<br>
+			<label for="country">Country</label>
+			<select name="country" id="country">
+				<option value="india">india</option>
+				<option value="usa">usa</option>
+				<option value="Germany">Germany</option>
+				<option value="america">america</option>
+				<option value="brazil">brazil</option>
+				<option value="argentina">argentina</option>
+				<option value="italy">italy</option>
+			</select>
+			<br>
+			<br>
+			<label for="descrption">descrption</label>
+			<textarea name="descrption" id="descrption" cols="50" rows="10" placeholder="descrption"></textarea>
+			<br>
+			<br>
+			<input type="submit" value="submit" />
+			<button type="submit">submit</button>
+			<input type="reset" value="reset">
+			<button type="reset">reset</button>
+		</form>
+	</body>
+</html>
